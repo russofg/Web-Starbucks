@@ -64,12 +64,15 @@ img{
 .navbar li{
     margin:  0 15px;
     font-weight: bold;
+    letter-spacing: 2px;
+    font-weight: bold ;
 
 }
 
 .navbar a{
     color: #000;
     text-decoration: none;
+    font-size: 13px;
 
 }
 .navbar a:hover{
@@ -109,12 +112,14 @@ img{
     display: inline-block;
     background: none;
     text-decoration: none;
-    border: 1px #000 solid;
-    border-radius: 50px;
+    border: 1.5px #000 solid;
+    border-radius: 20px;
     padding: 7px 16px;
     line-height: 1.2;
     text-align: center;
     color: #000;
+    font-size: 13px;
+    font-weight: bold;
 
 }
 
@@ -157,11 +162,186 @@ img{
 }
 
 .text-box-a{
-    max-width: 30%;
+    max-width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     text-align: center;
 
+}
+
+.text-xl{
+    color: var(--color-primary);
+    margin-bottom: 30px;
+}
+
+.text-md{
+    color: var(--color-primary);
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+
+.btn-box-a{
+    color: var(--color-primary);
+    font-weight: 600;
+
+
+}
+
+/*Box b*/
+
+.box-container-b{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: var(--color-primary);
+    
+}
+
+.text-box-b{
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.img-box-b{
+    width: 50%;
+
+}
+
+.text-xxl{
+    font-size: 50px;
+    color: rgb(240, 240, 240);
+    margin-bottom: 30px;
+    letter-spacing: 3px
+}
+
+.text-l{
+    color: rgb(240, 240, 240);
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+.btn-box-b{
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+    border-color: rgb(240, 240, 240);
+    transition: 0.2s;
+    
+
+}
+
+.btn-box-b:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.box-container-c{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: var(--color-primary);
+    
+}
+
+.text-box-c{
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.img-box-c{
+    width: 50%;
+
+}
+
+
+
+.btn-box-c{
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+    border-color: rgb(240, 240, 240);
+    transition: 0.2s;
+    
+
+}
+
+.btn-box-c:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.box-container-d{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--color-primary);
+    
+}
+.img-box-d{
+    width: 50%;
+
+}
+
+.text-box-d{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.text-xl-d{
+    color: rgb(240, 240, 240);    margin-bottom: 30px;
+}
+
+.text-md-d{
+    color: rgb(240, 240, 240); 
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 2;
+    
+}
+
+.btn-box-d{
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+    border-color: rgb(240, 240, 240);
+    transition: 0.2s;
+}
+.btn-box-d:hover{
+    background-color: rgba(255, 255, 255, 0.103);
 }
